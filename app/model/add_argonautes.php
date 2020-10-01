@@ -4,7 +4,7 @@ function add_argonautes($form){
 
 	try {
 	
-	$query= "INSERT INTO Membres (name) VALUES(:name)";
+	$query= "INSERT INTO membres (name) VALUES(:name)";
 
 	$req= $pdo->prepare($query);
 
